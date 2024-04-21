@@ -12,7 +12,7 @@ struct node* create_node(node*& head,int data){
     temp->next = NULL;
     if (head == NULL){
         head = temp;
-        return temp;
+        return head;
     }else{
         node* ptr = head;
         while (ptr->next!=NULL){
