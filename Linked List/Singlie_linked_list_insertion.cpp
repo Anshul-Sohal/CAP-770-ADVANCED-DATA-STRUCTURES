@@ -44,20 +44,22 @@ node* add_at_any(node*& head, int data,int position){
         head = temp;
         return head;
     }else{
-        node*ptr = head;
-        int count=0;
-        while(ptr!=NULL){
-            count++;
-            if (count == position-1){
-                temp->next = ptr->next;
-                ptr->next = temp;
-                break;
-            }
-            ptr = ptr->next;
-        }
-        return head;
+        //"Needs to be updated inorder to work correctly"
+    //     node*ptr = head;
+    //     int count=0;
+    //     while(ptr!=NULL){
+    //         count++;
+    //         if (count == position-1){
+    //             temp->next = ptr->next;
+    //             ptr->next = temp;
+    //             break;
+    //         }
+    //         ptr = ptr->next;
+    //     }
+    //     return head;
     }
     return head;
+    
 }
 
 void traverse(node*head){
