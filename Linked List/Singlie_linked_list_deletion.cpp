@@ -31,11 +31,10 @@ node* delete_beg(node*&head){
 }
 
 node* delete_end(node*&head){
-    if (head == NULL)
-    {
+    if(head == NULL){
         cout<<"The Linked List is empty";
     }else{
-        if (head->next == NULL){
+        if(head->next == NULL){
             delete head;
             head = NULL;
         }else{
