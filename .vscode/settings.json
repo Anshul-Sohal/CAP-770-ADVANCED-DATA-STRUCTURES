@@ -45,6 +45,7 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "stack": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "climits": "cpp"
     }
 }
