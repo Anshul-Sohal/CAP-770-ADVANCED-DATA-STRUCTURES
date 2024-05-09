@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-struct node
-{
+struct node{
     node*leftchild;
     int data;
     node*rightchild;
