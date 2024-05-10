@@ -11,7 +11,6 @@ bool isMatching(char a, char b){
     }
     return false;
 }
-
 bool checkPrenthesis(string s){
     stack<char> st;
     for(int i = 0;i<s.length();i++){
