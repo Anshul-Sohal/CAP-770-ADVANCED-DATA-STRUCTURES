@@ -2,7 +2,7 @@
 using namespace std;
 void hashing(int table[], int size){
     int data;
-    cout<<"Enter a data to be added";
+    cout<<"Enter a data to be added = ";
     cin>>data;
 
     int index = data%size;
